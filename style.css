@@ -614,3 +614,17 @@ img {
     gap: 2rem;
   }
 }
+
+.quem-somos-logo{
+  margin-top: 1.5 rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.18);
+  max-width: 360px;
+}
+
+.quem-somos-logo img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
