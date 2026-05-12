@@ -548,3 +548,69 @@ img {
     gap: 2rem;
   }
 }
+
+/* ===============================================
+   QUEM SOMOS
+   =============================================== */
+.quem-somos {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.quem-somos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.quem-somos-missao h3 {
+  font-size: 1.2rem;
+  color: #100f0f;
+  margin-bottom: 0.75rem;
+}
+
+.quem-somos-missao p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+.quem-somos-pilares {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.quem-somos-pilares li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.25rem 1.5rem;
+  background-color: #f4f0eb;
+  border-left: 4px solid #49a311;
+  border-radius: 6px;
+}
+
+.quem-somos-pilares strong {
+  font-size: 1rem;
+  color: #100f0f;
+}
+
+.quem-somos-pilares p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.pilar-icone {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+
+@media (max-width: 680px) {
+  .quem-somos-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
