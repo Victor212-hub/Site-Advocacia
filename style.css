@@ -222,6 +222,7 @@ img {
 .areas {
   padding: 80px 0;
   background-color: #112138;
+  border-top: 1px solid rgba(212, 169, 74, 0.18);
 }
 
 /* Grid responsivo: começa com 1 coluna, vai abrindo */
@@ -280,6 +281,7 @@ img {
   background-color: #112138;
   padding: 80px 0;
   text-align: center;
+  border-top: 1px solid rgba(212, 169, 74, 0.18);
 }
 
 .lista-prev {
@@ -315,6 +317,7 @@ img {
 .frente-escritorio {
   padding: 80px 0;
   background-color: #112138;
+  border-top: 1px solid rgba(212, 169, 74, 0.18);
 }
 
 .foto-frente {
@@ -350,6 +353,7 @@ img {
 .localizacao {
   padding: 80px 0;
   background-color: #112138;
+  border-top: 1px solid rgba(212, 169, 74, 0.18);
 }
 
 /* Lado a lado: endereço + mapa */
@@ -559,6 +563,7 @@ img {
 .quem-somos {
   padding: 80px 0;
   background-color: #112138;
+  border-top: 1px solid rgba(212, 169, 74, 0.18);
 }
 
 .quem-somos-grid {
@@ -639,6 +644,7 @@ img {
 .documentos {
   padding: 80px 0;
   background-color: #112138;
+  border-top: 1px solid rgba(212, 169, 74, 0.18);
 }
 
 .documentos-grid {
