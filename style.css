@@ -53,18 +53,18 @@ img {
 /* Título de seção padrão */
 .titulo-secao {
   font-size: clamp(1.6rem, 3vw, 2.2rem);
-  color: #100f0f;
+  color: #F7F7FF;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
 .titulo-secao--claro {
-  color: #ffffff;
+  color: #F7F7FF;
 }
 
 .subtitulo-secao {
   text-align: center;
-  color: #555;
+  color: #e8eaf5;
   font-size: 1rem;
   margin-bottom: 3rem;
 }
@@ -101,9 +101,12 @@ img {
 }
 
 .logo {
-  height: 56px;
+  height: 78px;
   width: auto;
+  max-width: 220px;
   object-fit: contain;
+  display: block;
+  background: transparent;
 }
 
 /* Lista de links de navegação */
@@ -168,7 +171,7 @@ img {
    HERO
    =============================================== */
 .hero {
-  background-color: #C5D9E2;
+  background-color: #112138;
   padding: 100px 0 80px;
   text-align: center;
 }
@@ -184,7 +187,7 @@ img {
 
 .hero h1 {
   font-size: clamp(2.4rem, 5vw, 4rem);
-  color: #100f0f;
+  color: #F7F7FF;
   margin-bottom: 1.25rem;
 }
 
@@ -192,7 +195,7 @@ img {
   max-width: 620px;
   margin: 0 auto 2rem;
   font-size: 1.05rem;
-  color: #3a3a3a;
+  color: #e9edf8;
 }
 
 .btn-hero {
@@ -218,7 +221,7 @@ img {
    =============================================== */
 .areas {
   padding: 80px 0;
-  background-color: #f4f0eb;
+  background-color: #112138;
 }
 
 /* Grid responsivo: começa com 1 coluna, vai abrindo */
@@ -229,7 +232,7 @@ img {
 }
 
 .card-area {
-  background-color: #ffffff;
+  background-color: #440381;
   border: 1px solid #e0dbd3;
   border-radius: 8px;
   padding: 2rem 1.5rem;
@@ -249,23 +252,24 @@ img {
 
 .card-area h3 {
   font-size: 1.1rem;
-  color: #100f0f;
+  color: #F7F7FF;
   margin-bottom: 0.5rem;
 }
 
 .card-area p {
   font-size: 0.92rem;
-  color: #555;
+  color: #e8ebf7;
 }
 
 /* Card de destaque (Previdenciário) com borda dourada */
 .card-destaque {
-  border-color: #b8962e;
-  border-width: 2px;
+  background-color: #1a2c4f;
+  border: 2px solid #5c7bb8;
+  box-shadow: 0 8px 18px rgba(15, 27, 47, 0.18);
 }
 
 .card-destaque h3 {
-  color: #8a6d1b;
+  color: #F7F7FF;
 }
 
 
@@ -310,7 +314,7 @@ img {
    =============================================== */
 .frente-escritorio {
   padding: 80px 0;
-  background-color: #f4f0eb;
+  background-color: #112138;
 }
 
 .foto-frente {
@@ -345,7 +349,7 @@ img {
    =============================================== */
 .localizacao {
   padding: 80px 0;
-  background-color: #eef3f6;
+  background-color: #112138;
 }
 
 /* Lado a lado: endereço + mapa */
@@ -359,13 +363,13 @@ img {
 
 .loc-info h3 {
   font-size: 1.2rem;
-  color: #100f0f;
+  color: #F7F7FF;
   margin-bottom: 0.75rem;
 }
 
 .loc-info p {
   font-size: 0.97rem;
-  color: #444;
+  color: #edf1fb;
   font-style: normal;
   line-height: 1.9;
 }
@@ -379,7 +383,7 @@ img {
 
 .loc-dicas li {
   font-size: 0.92rem;
-  color: #555;
+  color: #edf1fb;
 }
 
 /* Iframe do mapa responsivo */
@@ -554,7 +558,7 @@ img {
    =============================================== */
 .quem-somos {
   padding: 80px 0;
-  background-color: #ffffff;
+  background-color: #112138;
 }
 
 .quem-somos-grid {
@@ -567,13 +571,13 @@ img {
 
 .quem-somos-missao h3 {
   font-size: 1.2rem;
-  color: #100f0f;
+  color: #F7F7FF;
   margin-bottom: 0.75rem;
 }
 
 .quem-somos-missao p {
   font-size: 1rem;
-  color: #444;
+  color: #edf1fb;
   line-height: 1.8;
 }
 
