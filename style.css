@@ -233,33 +233,43 @@ img {
 }
 
 .card-area {
-  background-color: #440381;
+  position: relative;
+  background-color: #1a2c4f; /* antes era #440381 (roxo), destoava da identidade azul do site */
   border: 1px solid #e0dbd3;
   border-radius: 8px;
   padding: 2rem 1.5rem;
+  overflow: hidden;
   transition: box-shadow 0.2s, transform 0.2s;
 }
 
-.card-area:hover {
-  box-shadow: 0 6px 28px rgba(0,0,0,0.1);
-  transform: translateY(-3px);
+.card-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("img/logo_advocacia_adobe.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65%;
+  opacity: 0.08;
+  pointer-events: none;
+  z-index: 0;
 }
 
-.card-icone {
-  font-size: 2rem;
-  display: block;
-  margin-bottom: 0.75rem;
+.card-area > * {
+  position: relative;
+  z-index: 1;
 }
 
 .card-area h3 {
-  font-size: 1.1rem;
   color: #F7F7FF;
-  margin-bottom: 0.5rem;
 }
 
 .card-area p {
-  font-size: 0.92rem;
-  color: #e8ebf7;
+  color: #edf1fb;
+}
+
+.card-area:hover::before {
+  opacity: 0.12;
 }
 
 /* Card de destaque (Previdenciário) com borda dourada */
